@@ -22,7 +22,7 @@ body {
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(30px);asdc
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
