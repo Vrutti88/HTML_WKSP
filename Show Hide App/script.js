@@ -3,4 +3,4 @@ function hide(){
 }
 function show(){
     document.getElementById('mytext').style.display="block";
-}sdc
+}
