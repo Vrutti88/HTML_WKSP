@@ -4,7 +4,7 @@ async function handleSearch() {
 
     if (!username) {
         resultDiv.innerHTML = "<p style='color: red;'>Please enter a GitHub username.</p>";
-        return;acsd
+        return;
     }
 
     const url = `https://api.github.com/users/${username}`;
