@@ -13,7 +13,7 @@ const winningPatterns = [
   [0, 4, 8], [2, 4, 6]             // diagonals
 ];
 
-const disableBoxes = () => {
+const disableBoxes = () => {as
   boxes.forEach(box => box.disabled = true);
 };
 
