@@ -18,7 +18,7 @@ function start(){
         if(minutes==60){
             minutes=0;
             hours++;
-        }
+        }asdc
         showtime();
     },1000)
 }
