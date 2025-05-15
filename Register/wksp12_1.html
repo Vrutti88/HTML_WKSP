@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="ribbon.css">
+</head>
+
+<body>
+    <div class="ribbon">
+        <div class="ribbon-stitches-top"></div>
+        <div class="ribbon-content">
+            <p><b>CSS Ribbon Preview</b></p>
+        </div>
+        <div class="ribbon-stitches-bottom"></div>
+    </div>
+
+    <div class="main-container">
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="https://lottie.host/147b43ce-0e99-44d0-b79f-897b1bf3689e/AXFdr304tM.lottie"
+            background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+        <div class="sub-container"></div>
+        <div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="text-header">Register</div>
+                </div>
+                <div class="card-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input required="" class="form-control" name="username" id="username" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input required="" class="form-control" name="email" id="email" type="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input required="" class="form-control" name="password" id="password" type="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input required="" class="form-control" name="confirm-password" id="confirm-password"
+                                type="password">
+                        </div>
+                        <input type="submit" class="btn" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+/* stopwatch.css */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+#clock {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    background-color: #111;
+    padding: 20px 50px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00adb5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007a80;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="clock">00:00:00</div>
+</body>
+<script>
+    function handleclock(){
+        const now=new Date();
+        let hours=now.getHours().toString();
+        let minutes=now.getMinutes().toString();
+        let seconds=now.getSeconds().toString();
+        document.getElementById('clock').innerHTML=`${hours}:${minutes}:${seconds}`
+    }
+    setInterval(handleclock,1000);
+    handleclock();
+</script>
+</html>

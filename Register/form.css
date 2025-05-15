@@ -1,0 +1,114 @@
+/* Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f9980, #75cdd5, #92d7db);
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card */
+.card {
+    width: 360px;
+    background: rgba(30, 30, 50, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Card Header */
+.card-header {
+    background: #2f2f3f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #3d3d5c;
+    width: 100%;
+}
+
+.text-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Card Body */
+.card-body {
+    padding: 25px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #bbb;
+}
+
+.form-group input {
+    width: 250px;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2f2f3f;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 0 1px #444;
+}
+
+.form-group input:focus {
+    background-color: #383850;
+    box-shadow: 0 0 4px #6c63ff;
+    outline: none;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fc466b, #3f5efb);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #e43a5d, #3a47d5);
+}

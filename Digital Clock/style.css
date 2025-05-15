@@ -1,0 +1,21 @@
+/* style.css */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #222324, #4a4c4e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#clock {
+    font-size: 5rem;
+    color: #04e7b9;
+    background-color: #111;
+    padding: 20px 40px;
+    border-radius: 35px;
+    box-shadow: 0 0px 50px rgba(0, 255, 204, 0.4);
+    letter-spacing: 3px;
+    font-weight: bold;
+}
