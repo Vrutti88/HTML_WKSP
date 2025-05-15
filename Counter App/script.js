@@ -11,3 +11,4 @@ function reset(){
     count=0;
     document.getElementById('countvalue').innerHTML=`Counter Value:- ${count}`
 }
+//script
