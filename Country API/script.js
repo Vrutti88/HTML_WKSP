@@ -16,3 +16,4 @@ function handleSearch(){
         <h3>Population:- ${data[0].population}</h3>`
     })
 }
+SVGDefsElement,nc
