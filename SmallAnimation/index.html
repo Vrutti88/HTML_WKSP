@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            /* border: 2px solid; */
+            margin-top: 100px;
+            margin-left: 200px;
+            margin-right: 200px;
+            border-width: 20px;
+            border-style:solid;
+
+            animation-name: borderAnimation;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+        }
+        @keyframes borderAnimation{
+            0%{
+                border-style: inset;
+                border-color: rgb(255, 221, 127);
+            }
+            20%{
+                border-style: inset;
+                border-color: rgb(182, 255, 127);
+            }
+            40%{
+                border-style: inset;
+                border-color: rgb(127, 255, 236);
+            }
+            60%{
+                border-style: inset;
+                border-color: rgb(127, 127, 255);
+            }
+            80%{
+                border-style: inset;
+                border-color: rgb(255, 127, 127);
+            }
+            100%{
+                border-style: inset;
+                border-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Content</h1>
+    </div>
+</body>
+</html>
